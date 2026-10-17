@@ -1,0 +1,39 @@
+.container {
+  background-color: #f8fafc;
+  border-top: 2px solid #e2e8f0;
+  padding: 30px 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 22px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.subtitulo {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.estadoMensaje {
+  color: #64748b;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.errorMensaje {
+  color: #e74c3c;
+  font-weight: bold;
+  margin: 15px 0;
+}
